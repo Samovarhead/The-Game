@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+.container{
+	width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.game-container{
+	display: flex;
+	flex-direction: column;
+}
+.game-container > div{
+	display: flex;
+}
+.block{
+	width: 70px;
+	height: 70px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 5px;
+}
+
+
+.red{
+	background-color: #FF0000;
+}
+.blue{
+	background-color: #1921B1;
+}
+.green{
+	background-color: #00CC00;
+}
+.yellow{
+	background-color: #FFFF00;
+}
+.orange{
+	background-color: #ff5b00;
+}
+.purple{
+	background-color: #8000ff;
+}
+.sea{
+	background-color: #00ffff;
+}
+.karmine{
+	background-color: #ff0040;
+}
+.hidden{
+	background-color: grey!important;
+}
